@@ -6,7 +6,7 @@ Repositório de estudos de **C#** e **.NET**, baseado em curso prático. O conte
 
 ## Estrutura do Repositório
 
-```
+```structure
 csharp/
 ├── FirstProject/       # Primeiro projeto: Hello World
 ├── Course/             # Projeto do curso: fundamentos da linguagem
@@ -19,6 +19,7 @@ csharp/
 ## Projetos
 
 ### 🟢 FirstProject
+>
 > Primeiro contato com C# e .NET.
 
 - Criação de um projeto console
@@ -27,9 +28,11 @@ csharp/
 ---
 
 ### 📘 Course
+>
 > Projeto acompanhando as aulas do curso.
 
 Conteúdos abordados:
+
 - Tipos primitivos: `bool`, `char`, `sbyte`, `byte`, `int`, `long`, `float`, `double`, `decimal`, `string`, `object`
 - Limites dos tipos numéricos (`int.MinValue`, `int.MaxValue`, etc.)
 - Formatação de números com `ToString("F2", CultureInfo.InvariantCulture)`
@@ -41,6 +44,7 @@ Conteúdos abordados:
 ---
 
 ### 📝 FirstExercise
+>
 > Exercício sobre variáveis, tipos e formatação de saída.
 
 - Declaração e uso de variáveis de diferentes tipos
@@ -51,6 +55,7 @@ Conteúdos abordados:
 ---
 
 ### 📝 SecondExercise
+>
 > Exercício sobre leitura e processamento de dados do usuário.
 
 - Leitura de entradas com `Console.ReadLine()`
