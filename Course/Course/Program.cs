@@ -60,6 +60,9 @@ namespace Course
 
             // Concatenação de strings
             Console.WriteLine(nome2 + " tem " + idade + " anos e saldo de " + saldo.ToString("F2", CultureInfo.InvariantCulture) + " reais. (com concatenação)");
+
+            // Operadores de atribuição
+
         }
     }
 }
