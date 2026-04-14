@@ -40,6 +40,7 @@ Each exercise follows the pattern `<ExerciseName>/<ExerciseName>/Program.cs` wit
 | `ThirdExercise/` | `DateTime.Now.Hour` for time-based greetings, `if/else`, even/odd check |
 | `ExerciseFour/` | `for` loop, accumulator pattern, integer sum |
 | `ExerciseFive/` | Heron's formula, `Math.Sqrt`, `double` arithmetic, comparing two triangle areas |
+| `ExerciseSix/` | Classes with fields, instance methods, `Domain/` subfolder, stock management (`Produto`, `ValorTotalEmEstoque`, `AdicionarProdutos`, `RemoverProdutos`) |
 
 ## Conventions
 
