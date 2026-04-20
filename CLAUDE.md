@@ -41,6 +41,7 @@ Each exercise follows the pattern `<ExerciseName>/<ExerciseName>/Program.cs` wit
 | `ExerciseFour/` | `for` loop, accumulator pattern, integer sum |
 | `ExerciseFive/` | Heron's formula, `Math.Sqrt`, `double` arithmetic, comparing two triangle areas |
 | `ExerciseSix/` | Classes with fields, instance methods, `Domain/` subfolder, stock management (`Produto`, `ValorTotalEmEstoque`, `AdicionarProdutos`, `RemoverProdutos`) |
+| `ExerciseSeven/` | OOP: classes, constructor overloading, constructor chaining (`: this()`), encapsulation (`private set`), `ToString()` override — bank account (`Conta`) with deposit/withdrawal and per-transaction fee |
 
 ## Conventions
 
