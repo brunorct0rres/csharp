@@ -1,0 +1,11 @@
+<Solution>
+  <Project Path="FirstProject/FirstProject/FirstProject.csproj" />
+  <Project Path="Course/Course/Course.csproj" />
+  <Project Path="FirstExercise/FirstExercise/FirstExercise.csproj" />
+  <Project Path="SecondExercise/SecondExercise/SecondExercise.csproj" />
+  <Project Path="ThirdExercise/ThirdExercise/ThirdExercise.csproj" />
+  <Project Path="ExerciseFour/ExerciseFour/ExerciseFour.csproj" />
+  <Project Path="ExerciseFive/ExerciseFive/ExerciseFive.csproj" />
+  <Project Path="ExerciseSix/ExerciseSix/ExerciseSix.csproj" />
+  <Project Path="ExerciseSeven/ExerciseSeven/ExerciseSeven.csproj" />
+</Solution>

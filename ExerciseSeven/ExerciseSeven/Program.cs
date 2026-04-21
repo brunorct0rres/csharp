@@ -7,10 +7,6 @@ namespace ExerciseSeven
         static void Main(string[] args)
         {
             Conta conta;
-
-            double valorDeposito = 0.0;
-            double valorSaque = 0.0;
-
             Console.Write("Entre o número da conta: ");
             int numeroConta = int.Parse(Console.ReadLine());
 
@@ -20,6 +16,8 @@ namespace ExerciseSeven
             Console.Write("Haverá depósito inicial (s/n)? ");
             char temDepositoInicial = char.Parse(Console.ReadLine());
 
+
+            double valorDeposito;
             if (temDepositoInicial == 's')
             {
                 Console.Write("Entre o valor do depósito inicial: ");
@@ -41,7 +39,7 @@ namespace ExerciseSeven
             Console.WriteLine(conta);
 
             Console.Write("Entre um valor para saque: ");
-            valorSaque = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
+            double valorSaque = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
             conta.Sacar(valorSaque);
             Console.WriteLine("Dados da conta atualizados:");
             Console.WriteLine(conta);

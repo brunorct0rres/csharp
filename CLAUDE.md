@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Repository Overview
 
-This is a C# / .NET 10 learning repository. Each project is a standalone console application exploring specific language concepts. Projects are organized as independent solutions under their own directories.
+This is a C# / .NET 10 learning repository. Each project is a standalone console application exploring specific language concepts. All projects are organized under a single root solution (`StudyCenter.slnx`) for unified IntelliSense in VS Code.
 
 ## Commands
 
@@ -48,4 +48,4 @@ Each exercise follows the pattern `<ExerciseName>/<ExerciseName>/Program.cs` wit
 - Entry point is always `Program.cs` with a `static void Main(string[] args)` method inside a namespace matching the project name.
 - Numeric output uses `CultureInfo.InvariantCulture` with `.ToString("F2", ...)` to ensure a period (`.`) as the decimal separator.
 - Console input always uses `Console.ReadLine()` — never `Console.Read()`.
-- New exercises follow the naming pattern `ExerciseFive`, `ExerciseSix`, etc., as new directories at the repo root.
+- New exercises follow the naming pattern `ExerciseFive`, `ExerciseSix`, etc., as new directories at the repo root. After creating a new project, add its `.csproj` path to `StudyCenter.slnx` so it's included in IntelliSense.
