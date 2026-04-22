@@ -1,0 +1,14 @@
+namespace ExerciseNine
+{
+    class Lodger
+    {
+        public string Name { get; set; }
+        public string Email { get; set; }
+
+        public Lodger(string name, string email)
+        {
+            Name = name;
+            Email = email;
+        }
+    }
+}

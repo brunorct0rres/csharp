@@ -9,4 +9,5 @@
   <Project Path="ExerciseSix/ExerciseSix/ExerciseSix.csproj" />
   <Project Path="ExerciseSeven/ExerciseSeven/ExerciseSeven.csproj" />
   <Project Path="ExerciseEight/ExerciseEight/ExerciseEight.csproj" />
+  <Project Path="ExerciseNine/ExerciseNine/ExerciseNine.csproj" />
 </Solution>
