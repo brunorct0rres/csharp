@@ -29,7 +29,7 @@ There are no tests in this repository.
 
 ## Project Structure
 
-Each exercise follows the pattern `<ExerciseName>/<ExerciseName>/Program.cs` with a matching `.csproj`. All projects target `net10.0` with `ImplicitUsings` and `Nullable` enabled.
+Each exercise follows the pattern `<ExerciseName>/<ExerciseName>/Program.cs` with a matching `.csproj`. All projects target `net10.0` with `ImplicitUsings` and `Nullable` enabled. Exception: `ExerciseRabbitMQ/` uses a three-project layout (`.Contracts`, `.Producer`, `.Consumer`) instead of a single project.
 
 | Directory | Topic |
 |---|---|
@@ -42,6 +42,9 @@ Each exercise follows the pattern `<ExerciseName>/<ExerciseName>/Program.cs` wit
 | `ExerciseFive/` | Heron's formula, `Math.Sqrt`, `double` arithmetic, comparing two triangle areas |
 | `ExerciseSix/` | Classes with fields, instance methods, `Domain/` subfolder, stock management (`Produto`, `ValorTotalEmEstoque`, `AdicionarProdutos`, `RemoverProdutos`) |
 | `ExerciseSeven/` | OOP: classes, constructor overloading, constructor chaining (`: this()`), encapsulation (`private set`), `ToString()` override — bank account (`Conta`) with deposit/withdrawal and per-transaction fee |
+| `ExerciseEight/` | Arrays, `double.Parse` with `CultureInfo`, average price calculator |
+| `ExerciseNine/` | Arrays indexed by room number, input validation, hotel room rental system |
+| `ExerciseRabbitMQ/` | Distributed messaging with RabbitMQ via MassTransit: `record` types as message contracts, `IConsumer<T>`, Pub/Sub pattern, async bus lifecycle (`StartAsync`/`StopAsync`) — three-project layout (`.Contracts`, `.Producer`, `.Consumer`) |
 
 ## Conventions
 

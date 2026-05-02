@@ -10,4 +10,7 @@
   <Project Path="ExerciseSeven/ExerciseSeven/ExerciseSeven.csproj" />
   <Project Path="ExerciseEight/ExerciseEight/ExerciseEight.csproj" />
   <Project Path="ExerciseNine/ExerciseNine/ExerciseNine.csproj" />
+  <Project Path="ExerciseRabbitMQ/ExerciseRabbitMQ.Contracts/ExerciseRabbitMQ.Contracts.csproj" />
+  <Project Path="ExerciseRabbitMQ/ExerciseRabbitMQ.Producer/ExerciseRabbitMQ.Producer.csproj" />
+  <Project Path="ExerciseRabbitMQ/ExerciseRabbitMQ.Consumer/ExerciseRabbitMQ.Consumer.csproj" />
 </Solution>
