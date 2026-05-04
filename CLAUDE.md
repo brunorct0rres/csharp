@@ -44,6 +44,7 @@ Each exercise follows the pattern `<ExerciseName>/<ExerciseName>/Program.cs` wit
 | `ExerciseSeven/` | OOP: classes, constructor overloading, constructor chaining (`: this()`), encapsulation (`private set`), `ToString()` override — bank account (`Conta`) with deposit/withdrawal and per-transaction fee |
 | `ExerciseEight/` | Arrays, `double.Parse` with `CultureInfo`, average price calculator |
 | `ExerciseNine/` | Arrays indexed by room number, input validation, hotel room rental system |
+| `ExerciseTen/` | OOP: class with properties (`Id`, `Name`, `Salary`), `private set` encapsulation, `SetInitialSalary`, `IncreaseSalary(percentage)`, `ToString()` override — employee list with salary increase by ID using `List<T>` and `Find` with lambda |
 | `ExerciseRabbitMQ/` | Distributed messaging with RabbitMQ via MassTransit: `record` types as message contracts, `IConsumer<T>`, Pub/Sub pattern, async bus lifecycle (`StartAsync`/`StopAsync`) — three-project layout (`.Contracts`, `.Producer`, `.Consumer`) |
 
 ## Conventions
